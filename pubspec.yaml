@@ -1,0 +1,41 @@
+name: test2
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  qr_flutter: ^4.1.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/home1.png
+    - assets/images/home2.png
+    - assets/images/logo technopartner.png
+    - assets/images/menu1.png
+    - assets/images/menu2.png
+    - assets/images/motif.png
+    - assets/images/qr.png
+    - assets/images/arabica.jpeg
+    - assets/images/banner1.png
+    - assets/images/banner2.jpeg
+    - assets/images/banner3.png
